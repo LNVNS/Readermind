@@ -1,10 +1,10 @@
 {
-  "name": " ",
+  "name": "reader-mind",
   "version": "0.0.1",
   "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "keywords": ["website","workshops","reading"],
+  "license": "MIT",
+  "author": "Reader Mind",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
