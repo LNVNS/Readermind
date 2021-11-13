@@ -15,7 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  background-color: #b3d4fc;
+  background-color: #F5F5F5; /*#b3d4fc*/
 }
 
 /*
@@ -175,7 +175,10 @@ header {
   justify-content: space-between;
   background: #184965;
   padding: 20px 40px 20px 40px;
-  margin-bottom: 40px;
+}
+
+header .header-container {
+  align-self: center;
 }
 
 header nav {
@@ -202,23 +205,65 @@ header a {
 
 main {
   background: #F5F5F5;
-  margin: 0 80px 0 80px;
+  margin: 0 80px;
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: #184965;
   color: #ffffff;
-  height: 120px;
+  padding: 8px;
 }
 
-footer p {
+.footer-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-copyright p {
   text-align: center;
-  margin-bottom: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact-info span {
+  color: #C4C4C4;
+}
+
+.social {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.social img {
+  width: 24px;
+  padding: 8px;
 }
 
 #banner {
   display: flex;
-  margin-bottom: 80px;
+  margin: 40px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner-img {
+  width: 30em;
 }
 
 .container {
@@ -227,14 +272,44 @@ footer p {
   justify-content: space-between;
 }
 
+.motto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.motto {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.motto-cite {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0;
+}
+
+.motto-author {
+  font-size: 1em;
+  text-align: center;
+}
+
+.motto-button {
+
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 35em) {
+  main {
+    margin: 0;
+  }
 }
 
 @media print,
