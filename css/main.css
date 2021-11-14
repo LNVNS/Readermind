@@ -298,7 +298,7 @@ footer {
 
 }
 
-#talleres h2 {
+#talleres, #libros, #articulos, #partners h2 {
   text-align: center;
 }
 
