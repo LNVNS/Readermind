@@ -94,7 +94,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  /*text-decoration: underline dotted; !* 2 *!*/
 }
 
 /**
@@ -355,4 +355,15 @@ template {
 
 [hidden] {
   display: none;
+}
+
+#branding {
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 0;
+  margin: 10px;
+}
+
+#branding img {
+  width: 10em;
 }
