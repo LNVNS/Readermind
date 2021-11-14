@@ -33,18 +33,12 @@ footer {
   margin-top: auto;
 }
 
-section {
-  align-self: center;
-  max-width: 80%;
-}
-
 /**
  * Render the `main` element consistently in IE.
  */
 
 main {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 /**

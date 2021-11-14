@@ -174,31 +174,15 @@ header {
   display: flex;
   justify-content: space-between;
   background: #184965;
-  padding: 20px;
+  padding: 20px 40px 20px 40px;
 }
 
-.header-container {
-  display: flex;
-  width: 100%;
-  /*align-self: center;*/
-}
-
-.header-container:not(:first-child) {
-  background: #222222;
-}
-
-#navbar {
-  display: flex;
-  align-self: flex-end;
-  width: 100%;
+header .header-container {
+  align-self: center;
 }
 
 header nav {
-  display: flex;
   align-self: flex-end;
-  width: 100%;
-  align-items: flex-end;
-  justify-content: flex-end;
 }
 
 header ul {
@@ -279,7 +263,7 @@ footer {
 }
 
 .banner-img {
-  width: 24em;
+  width: 30em;
   max-width: 100%;
 }
 
@@ -365,15 +349,6 @@ footer {
 
   .footer-copyright p {
     margin: 16px;
-  }
-
-  .banner-img {
-    width: 16em;
-    max-width: 100%;
-  }
-
-  .header-container {
-    flex-direction: column;
   }
 }
 
