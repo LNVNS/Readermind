@@ -257,9 +257,9 @@ footer {
 
 #banner {
   display: flex;
-  margin: 40px;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 40px;
 }
 
 .banner-img {
@@ -267,27 +267,20 @@ footer {
   max-width: 100%;
 }
 
-.container {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.box {
-  margin: 0 8px;
-}
-
 .motto-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  width: 100%;
+  padding: 40px;
 }
 
 .motto {
   display: flex;
   flex-direction: column;
   margin-bottom: 32px;
+  align-items: flex-end;
 }
 
 .motto-cite {
@@ -303,6 +296,10 @@ footer {
 
 .motto-button {
 
+}
+
+#talleres h2 {
+  text-align: center;
 }
 
 /* ==========================================================================
@@ -332,10 +329,7 @@ footer {
 
   #banner {
     flex-direction: column;
-  }
-
-  #talleres h2 {
-    text-align: center;
+    max-width: 50%;
   }
 
   .footer-container {

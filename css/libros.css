@@ -203,11 +203,6 @@ header a {
   font-size: 16px;
 }
 
-main {
-  background: #F5F5F5;
-  margin: 0 80px;
-}
-
 footer {
   display: flex;
   flex-direction: column;
@@ -267,16 +262,6 @@ footer {
   max-width: 100%;
 }
 
-.container {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.box {
-  margin: 0 8px;
-}
-
 .motto-container {
   display: flex;
   flex-direction: column;
@@ -312,9 +297,6 @@ footer {
    ========================================================================== */
 
 @media only screen and (max-width: 35em) {
-  main {
-    margin: 0;
-  }
 
   header {
     display: flex;

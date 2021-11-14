@@ -33,14 +33,25 @@ footer {
   margin-top: auto;
 }
 
+section {
+  align-self: center;
+  max-width: 80%;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
 
 main {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -366,4 +377,25 @@ template {
 
 #branding img {
   width: 10em;
+}
+
+.box {
+  margin: 0 8px;
+}
+
+main {
+  background: #F5F5F5;
+  margin: 0;
+  padding: 80px 0;
+}
+
+
+@media only screen and (max-width: 35em) {
+  main {
+    padding: 20px 0;
+  }
+
+  .container {
+    justify-content: space-around;
+  }
 }
