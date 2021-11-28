@@ -205,33 +205,6 @@ header a {
 
 main {
   background: #F5F5F5;
-  margin: 0 80px;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #184965;
-  color: #ffffff;
-  padding: 8px;
-}
-
-.footer-container {
-  display: flex;
-  width: 50%;
-  justify-content: space-around;
-}
-
-.footer-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-copyright p {
-  text-align: center;
 }
 
 .contact-info {
@@ -244,22 +217,18 @@ footer {
   color: #C4C4C4;
 }
 
-.social {
-  display: flex;
-  width: 100%;
-  text-align: center;
-}
-
-.social img {
-  width: 24px;
-  padding: 8px;
-}
-
 #banner {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 40px;
+  width: 100%;
+  background: #69ffa9a3;
+  padding: 40px 0;
+}
+
+.banner-img-container {
+  padding: 20px;
 }
 
 .banner-img {
@@ -272,8 +241,7 @@ footer {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  width: 100%;
-  padding: 40px;
+  padding: 20px;
 }
 
 .motto {
@@ -327,23 +295,6 @@ footer {
     flex-direction: column;
   }
 
-  #banner {
-    flex-direction: column;
-    max-width: 50%;
-  }
-
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .social {
-    justify-content: space-around;
-  }
-
-  .footer-copyright p {
-    margin: 16px;
-  }
 }
 
 @media print,

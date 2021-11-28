@@ -203,32 +203,6 @@ header a {
   font-size: 16px;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #184965;
-  color: #ffffff;
-  padding: 8px;
-}
-
-.footer-container {
-  display: flex;
-  width: 50%;
-  justify-content: space-around;
-}
-
-.footer-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-copyright p {
-  text-align: center;
-}
-
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -237,17 +211,6 @@ footer {
 
 .contact-info span {
   color: #C4C4C4;
-}
-
-.social {
-  display: flex;
-  width: 100%;
-  text-align: center;
-}
-
-.social img {
-  width: 24px;
-  padding: 8px;
 }
 
 #banner {
@@ -319,18 +282,6 @@ footer {
     text-align: center;
   }
 
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .social {
-    justify-content: space-around;
-  }
-
-  .footer-copyright p {
-    margin: 16px;
-  }
 }
 
 @media print,

@@ -21,7 +21,7 @@ html {
  */
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   font: 15px/1.5 Arial, Helvetica, sans-serif;
@@ -29,13 +29,8 @@ body {
   flex-direction: column;
 }
 
-footer {
-  margin-top: auto;
-}
-
 section {
   align-self: center;
-  max-width: 80%;
 }
 
 /**
@@ -45,6 +40,8 @@ section {
 main {
   display: flex;
   flex-direction: column;
+  background: #F5F5F5;
+  margin: 0;
 }
 
 .container {
@@ -370,7 +367,6 @@ template {
 
 #branding {
   border-radius: 50%;
-  border: 2px solid white;
   padding: 0;
   margin: 10px;
 }
@@ -383,16 +379,52 @@ template {
   margin: 0 8px;
 }
 
-main {
-  background: #F5F5F5;
-  margin: 0;
-  padding: 80px 0;
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #184965;
+  color: #ffffff;
+  margin-top: auto;
 }
 
+.footer-container {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-copyright {
+  margin-top: 40px;
+}
+
+.footer-copyright p {
+  text-align: center;
+}
+
+.footer-copyright p {
+  margin: 16px;
+}
+
+.social {
+  justify-content: space-around;
+}
+
+.social img {
+  width: 24px;
+  padding: 8px;
+}
 
 @media only screen and (max-width: 35em) {
   main {
-    padding: 20px 0;
   }
 
   .container {
