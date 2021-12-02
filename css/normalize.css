@@ -55,13 +55,12 @@ main {
     margin: 80px 20px;
     margin-left: auto;
     margin-right: auto;
-    min-width: 80%;
+    width: 80%;
 }
 
 .container {
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 iframe {
