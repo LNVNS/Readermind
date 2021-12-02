@@ -170,39 +170,6 @@ textarea {
   clear: both;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  background: #184965;
-  padding: 20px 40px 20px 40px;
-}
-
-header .header-container {
-  align-self: center;
-}
-
-header nav {
-  align-self: flex-end;
-}
-
-header ul {
-  margin: 0;
-  padding: 0;
-}
-
-header li {
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-
-header a {
-  color: #ffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
 .contact-info {
   display: flex;
   flex-direction: column;

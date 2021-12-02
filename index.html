@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/api-google.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
     <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -58,16 +62,18 @@
     <!-- Body -->
     <main>
         <section id="banner">
-            <div class="banner-img-container">
-                <img class="banner-img" src="./img/girl-reading.svg" alt="Girl reading">
-            </div>
             <div class="motto-container">
                 <div class="motto">
                     <h1 class="motto-cite"><cite>"Un libro es un regalo que puedes abrir una y otra vez"</cite></h1>
                     <span class="motto-author">Garrison Keylor</span>
                 </div>
-                <button class="motto-button" type="submit">Recibir información</button>
+                <form id="contact-form">
+                  <button class="motto-button" type="submit">Recibir información</button>
+                </form>
             </div>
+            <div class="banner-img-container">
+            <img class="banner-img" src="./img/girl-reading.svg" alt="Girl reading">
+          </div>
         </section>
         <section id="talleres">
             <h2>Proximos talleres</h2>
@@ -192,6 +198,14 @@
         ga('set', 'anonymizeIp', true);
         ga('set', 'transport', 'beacon');
         ga('send', 'pageview')
+
+        document.querySelector('#contact-form').addEventListener('submit', (e) => {
+          e.preventDefault();
+          // e.target.elements.name.value = '';
+          // e.target.elements.email.value = '';
+          // e.target.elements.message.value = '';
+          alert('Mensaje enviado!');
+        });
     </script>
     <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
