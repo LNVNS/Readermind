@@ -2,170 +2,140 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="website, reading, workshops">
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="website, reading, workshops">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="manifest" href="../site.webmanifest">
-  <link rel="apple-touch-icon" href="../icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="apple-touch-icon" href="../icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/talleres.css">
-
-  <meta name="theme-color" content="#fafafa">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/talleres.css">
+    <link rel="stylesheet" href="../css/api-google.css">
+    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!-- Header -->
-  <header>
-    <div class="header-container">
-      <div id="branding">
-        <a href="../index.html"><img src="../img/logo.svg" alt="ReaderMind"></a>
-      </div>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../pages/talleres.html">Talleres</a></li>
-        <li><a href="../pages/articulos.html">Articulos</a></li>
-        <li><a href="../pages/libros.html">Libros</a></li>
-        <li><a href="../pages/quienes-somos.html">Quienes Somos</a></li>
-        <li><a href="../pages/contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div id="branding">
+                <a href="../index.html"><img src="../img/logo.svg" alt="ReaderMind"></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/talleres.html">Talleres</a></li>
+                <li><a href="../pages/articulos.html">Articulos</a></li>
+                <li><a href="../pages/libros.html">Libros</a></li>
+                <li><a href="../pages/quienes-somos.html">Quienes Somos</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+                <li>
+                    <div id="google_translate_element"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <!-- Body -->
+    <main>
+        <section id="talleres">
+            <h2>Nuevos talleres</h2>
+            <div class="container">
+                <div class="box">
+                    <a href="../detail/detail_taller.html"><img src="../img/html.jpg" height="200" width="200" alt=""></a>
+                    <h3>Taller html inicios</h3>
+                    <p>Introducción a html</p>
+                </div>
+                <div class="box">
+                    <a href="../detail/detail_taller_css.html"><img src="../img/css.jpg" height="200" width="200" alt=""></a>
+                    <h3>Css</h3>
+                    <p>Inicios de css</p>
+                </div>
+                <div class="box">
+                    <a href="../detail/detail_taller_js.html"><img src="../img/js.jpg" height="200" width="200" alt=""></a>
+                    <h3> Js</h3>
+                    <p>Introducción a javascript</p>
+                </div>
+                <div class="box">
+                    <a href="../detail/detail_taller_babel.html"><img src="../img/babel.jpg" height="200" width="200" alt=""></a>
+                    <h3>Babel </h3>
+                    <p>Primer Modulo de babel</p>
+                </div>
+                <div class="box">
+                    <a href="../detail/detail_taller_saas.html"><img src="../img/saas.png" height="200" width="200" alt=""></a>
+                    <h3>Introduccion a Saas</h3>
+                    <p>Primer modulo de Saas </p>
+                </div>
+                <div class="box">
+                    <a href="../detail/detail_taller_avanzado.html"><img src="../img/html.jpg" height="200" width="200" alt=""></a>
+                    <h3>Html Avanzado</h3>
+                    <p>Segundo modulo de html</p>
+                </div>
 
-  <!-- Body -->
-  <main>
-    <section id="talleres">
-      <h2>Nuevos talleres</h2>
-      <div class="container">
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 9</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-      </div>
-    </section>
-  </main>
+            </div>
+        </section>
+    </main>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-container">
-      <div class="footer-item">
-        <h3>Contacto</h3>
-        <div class="contact-info">
-          <span>+519999XXXXX</span>
-          <span>hi@readermind.com</span>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h3>Contacto</h3>
+                <div class="contact-info">
+                    <span>+519999XXXXX</span>
+                    <span>hi@readermind.com</span>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3>Síguenos</h3>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank"><img src="../img/facebook.svg" alt="Facebook"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="../img/twitter.svg" alt="Twitter"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="../img/instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="footer-item">
-        <h3>Síguenos</h3>
-        <div class="social">
-          <a href="https://facebook.com" target="_blank"><img src="../img/facebook.svg" alt="Facebook"></a>
-          <a href="https://twitter.com" target="_blank"><img src="../img/twitter.svg" alt="Twitter"></a>
-          <a href="https://instagram.com" target="_blank"><img src="../img/instagram.svg" alt="Instagram"></a>
+        <div class="footer-copyright">
+            <p><b>Copyright &copy; 2021.</b> Hecho with HTML5 & CSS3 por Reader Mind</p>
         </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <p><b>Copyright &copy; 2021.</b>  Hecho with HTML5 & CSS3 por Reader Mind</p>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="../js/plugins.js"></script>
-  <script src="../js/main.js"></script>
+    <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+    <!-- Google translate-->
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
