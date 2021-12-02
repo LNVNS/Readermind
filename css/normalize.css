@@ -514,6 +514,19 @@ footer {
     padding: 8px;
 }
 
+.header-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-menu nav {
+  margin-top: auto;
+}
+
+#google_translate_element {
+  text-align: right;
+}
+
 @media only screen and (max-width: 35em) {
     main {}
     .container {
