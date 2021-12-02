@@ -52,7 +52,10 @@ main {
     display: flex;
     flex-direction: column;
     background: #F5F5F5;
-    margin: 0;
+    margin: 80px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 80%;
 }
 
 .container {
@@ -61,6 +64,9 @@ main {
     justify-content: space-between;
 }
 
+iframe {
+  align-self: center;
+}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -70,6 +76,10 @@ main {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 

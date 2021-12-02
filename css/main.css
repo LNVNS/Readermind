@@ -38,9 +38,10 @@ html {
   text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
+main {
+  margin: 0;
+  min-width: 100%;
+}
 
 hr {
   display: block;
@@ -223,7 +224,7 @@ main {
   justify-content: center;
   margin-bottom: 40px;
   width: 100%;
-  background: #69ffa9a3;
+  background: #fff257b0;
   padding: 40px 0;
 }
 
