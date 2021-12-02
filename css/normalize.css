@@ -75,10 +75,13 @@ iframe {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    text-transform: uppercase;
+
 }
 
 h2 {
   margin: 0;
+  text-transform: uppercase;
 }
 
 

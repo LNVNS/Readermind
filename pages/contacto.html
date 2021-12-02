@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="../css/contacto.css">
     <link rel="stylesheet" href="../css/api-google.css">
 
-
+    <script src="https://kit.fontawesome.com/ee72af7c06.js" crossorigin="anonymous"></script>
     <meta name="theme-color" content="#fafafa">
 </head>
 
@@ -60,17 +60,38 @@
     <!-- Body -->
 
     <main>
-        <br>
-        <div class="center_contact">
-            <h2>Contáctanos! </h2>
-            <p>Telefono : 155454545 </p>
-            <p> Correo Electrónico : readerMind@gmail.com</p>
-            <p>Dirección : Av Los Lirios - Miraflores</p>
-
-
-        </div>
-
-
+        <section id="contact">
+          <h1 class="section-header">Contacto</h1>
+          <div class="contact-wrapper">
+            <!-- Left contact page -->
+            <form id="contact-form" class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                </div>
+              </div>
+              <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+              <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                <div class="alt-send-button">
+                  <span class="send-text">ENVIAR</span>
+                </div>
+              </button>
+            </form>
+            <!-- Right contact page -->
+            <div class="direct-contact-container">
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Lima, Perú</span></i></li>
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(51) 999-XXX-XXX</a></span></i></li>
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hi@readermind.com</a></span></i></li>
+              </ul>
+            </div>
+          </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -113,6 +134,14 @@
         ga('set', 'anonymizeIp', true);
         ga('set', 'transport', 'beacon');
         ga('send', 'pageview')
+
+        document.querySelector('#contact-form').addEventListener('submit', (e) => {
+          e.preventDefault();
+          e.target.elements.name.value = '';
+          e.target.elements.email.value = '';
+          e.target.elements.message.value = '';
+          alert('Mensaje enviado!');
+        });
     </script>
 
     <script src="https://www.google-analytics.com/analytics.js " async></script>

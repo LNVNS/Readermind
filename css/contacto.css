@@ -272,6 +272,100 @@ header a {
     margin-right: auto;
 }
 
+#contact {
+  width: 100%;
+  height: 100%;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+.form-horizontal {
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control,
+textarea {
+  max-width: 400px;
+  letter-spacing: 1px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+input {
+  width: 100%;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.alt-send-button:hover {
+  cursor: pointer;
+}
+
+.direct-contact-container {
+  max-width: 400px;
+}
+
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+}
+
+.contact-text {
+  letter-spacing: 1.9px;
+}
+
+.contact-text a {
+  color: black;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  text-decoration: none;
+}
+
+.contact-text a:hover {
+  text-decoration: none;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
