@@ -2,178 +2,198 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="website, reading, workshops">
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="website, reading, workshops">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/api-google.css">
 
-  <meta name="theme-color" content="#fafafa">
+    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-  <!-- Header -->
-  <header>
-    <div class="header-container">
-      <div id="branding">
-        <a href=""><img src="./img/logo.svg" alt="ReaderMind"></a>
-      </div>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="./pages/talleres.html">Talleres</a></li>
-        <li><a href="./pages/articulos.html">Articulos</a></li>
-        <li><a href="./pages/libros.html">Libros</a></li>
-        <li><a href="./pages/quienes-somos.html">Quienes Somos</a></li>
-        <li><a href="./pages/contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div id="branding">
+                <a href=""><img src="./img/logo.svg" alt="ReaderMind"></a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="./pages/talleres.html">Talleres</a></li>
+                <li><a href="./pages/articulos.html">Articulos</a></li>
+                <li><a href="./pages/libros.html">Libros</a></li>
+                <li><a href="./pages/quienes-somos.html">Quienes Somos</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li>
+                    <div id="google_translate_element"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <!-- Body -->
+    <main>
+        <section id="banner">
+            <div class="banner-img-container">
+                <img class="banner-img" src="./img/girl-reading.svg" alt="Girl reading">
+            </div>
+            <div class="motto-container">
+                <div class="motto">
+                    <h1 class="motto-cite"><cite>"Un libro es un regalo que puedes abrir una y otra vez"</cite></h1>
+                    <span class="motto-author">Garrison Keylor</span>
+                </div>
+                <button class="motto-button" type="submit">Recibir información</button>
+            </div>
+        </section>
+        <section id="talleres">
+            <h2>Proximos talleres</h2>
+            <div class="container">
+                <div class="box">
+                    <a href="detail/detail_taller.html"><img src="img/html.jpg" height="200" width="200" alt="nuevo_cambio"></a>
+                    <h3>Taller html</h3>
+                    <p>Introducción a html</p>
+                </div>
+                <div class="box">
+                    <a href="detail/detail_taller_js.html"><img src="img/js.jpg" height="200" width="200" alt=""></a>
+                    <h3> Js</h3>
+                    <p>Introducción a javascript</p>
+                </div>
+                <div class="box">
+                    <a href="detail/detail_taller_css.html"><img src="img/css.jpg" height="200" width="200" alt=""></a>
+                    <h3>Css</h3>
+                    <p>Inicios de css</p>
+                </div>
+            </div>
+        </section>
+        <section id="libros">
+            <h2>Libros más vendidos</h2>
+            <div class="container">
+                <div class="box">
+                    <a href="detail/detail_book_carmelo.html"><img src="img/caballero.jpg" height="200" width="200" alt="caballero carmelo"></a>
+                    <h3>El Caballero Carmelo</h3>
+                    <p>Cuento del escritor peruano Abraham Valdelomar...</p>
+                </div>
+                <div class="box">
+                    <a href="detail/detail_book_carmelo.html"><img src="img/maya.jpg" height="200" width="200" alt=""></a>
+                    <h3>Mayta</h3>
+                    <p>El argumento de la novela se conforma con la información ...</p>
+                </div>
+                <div class="box">
+                    <a href="detail/detail_book_carmelo.html"><img src="img/ciudad.jpg" height="200" width="200" alt=""></a>
+                    <h3>La ciudad y los perros </h3>
+                    <p>Primera novela del escritor peruano Mario Vargas Llosa...</p>
+                </div>
+            </div>
+        </section>
+        <section id="articulos">
+            <h2>Nuevos articulos</h2>
+            <div class="container">
+                <div class="box">
+                    <img src="https://dummyimage.com/200x200/250/fff" alt="">
+                    <h3>Taller 1</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="box">
+                    <img src="https://dummyimage.com/200x200/250/fff" alt="">
+                    <h3>Taller 1</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="box">
+                    <img src="https://dummyimage.com/200x200/250/fff" alt="">
+                    <h3>Taller 9</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </section>
+        <section id="partners">
+            <h2>Nuestros aliados editoriales</h2>
+            <div class="container">
+                <div class="box">
+                    <img src="https://dummyimage.com/200x200/250/fff" alt="">
+                    <h3>Taller 1</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="box">
+                    <img src="https://dummyimage.com/200x200/250/fff" alt="">
+                    <h3>Taller 1</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="box">
+                    <img src="https://dummyimage.com/200x200/250/fff" alt="">
+                    <h3>Taller 9</h3>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-  <!-- Body -->
-  <main>
-    <section id="banner">
-      <div class="banner-img-container">
-        <img class="banner-img" src="./img/girl-reading.svg" alt="Girl reading">
-      </div>
-      <div class="motto-container">
-        <div class="motto">
-          <h1 class="motto-cite"><cite>"Un libro es un regalo que puedes abrir una y otra vez"</cite></h1>
-          <span class="motto-author">Garrison Keylor</span>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h3>Contacto</h3>
+                <div class="contact-info">
+                    <span>+519999XXXXX</span>
+                    <span>hi@readermind.com</span>
+                </div>
+            </div>
+            <div class="footer-item">
+                <h3>Síguenos</h3>
+                <div class="social">
+                    <a href="https://facebook.com" target="_blank"><img src="./img/facebook.svg" alt="Facebook"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="./img/twitter.svg" alt="Twitter"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="./img/instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
         </div>
-        <button class="motto-button" type="submit">Recibir información</button>
-      </div>
-    </section>
-    <section id="talleres">
-      <h2>Proximos talleres</h2>
-      <div class="container">
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
+        <div class="footer-copyright">
+            <p><b>Copyright &copy; 2021.</b> Hecho with HTML5 & CSS3 por Reader Mind</p>
         </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 9</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-      </div>
-    </section>
-    <section id="libros">
-      <h2>Libros más vendidos</h2>
-      <div class="container">
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 9</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-      </div>
-    </section>
-    <section id="articulos">
-      <h2>Nuevos articulos</h2>
-      <div class="container">
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 9</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-      </div>
-    </section>
-    <section id="partners">
-      <h2>Nuestros aliados editoriales</h2>
-      <div class="container">
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 1</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-        <div class="box">
-          <img src="https://dummyimage.com/200x200/250/fff" alt="">
-          <h3>Taller 9</h3>
-          <p>Lorem ipsum dolor sit amet</p>
-        </div>
-      </div>
-    </section>
-  </main>
+    </footer>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-container">
-      <div class="footer-item">
-        <h3>Contacto</h3>
-        <div class="contact-info">
-          <span>+519999XXXXX</span>
-          <span>hi@readermind.com</span>
-        </div>
-      </div>
-      <div class="footer-item">
-        <h3>Síguenos</h3>
-        <div class="social">
-          <a href="https://facebook.com" target="_blank"><img src="./img/facebook.svg" alt="Facebook"></a>
-          <a href="https://twitter.com" target="_blank"><img src="./img/twitter.svg" alt="Twitter"></a>
-          <a href="https://instagram.com" target="_blank"><img src="./img/instagram.svg" alt="Instagram"></a>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <p><b>Copyright &copy; 2021.</b>  Hecho with HTML5 & CSS3 por Reader Mind</p>
-    </div>
-  </footer>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Google translate-->
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
