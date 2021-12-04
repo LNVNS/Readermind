@@ -52,10 +52,11 @@ main {
     display: flex;
     flex-direction: column;
     background: #F5F5F5;
-    margin: 80px 20px;
+    margin: 80px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    background: #F5F5F5;
 }
 
 .container {
@@ -472,38 +473,28 @@ template {
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #184965;
-    color: #ffffff;
-    margin-top: auto;
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
 }
 
-.footer-container {
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    margin-top: 40px;
+footer p {
+  margin: 10px 0;
 }
 
-.footer-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+footer i {
+  color: red;
 }
 
-.footer-copyright {
-    margin-top: 40px;
-}
-
-.footer-copyright p {
-    text-align: center;
-}
-
-.footer-copyright p {
-    margin: 16px;
+footer a {
+  color: #3c97bf;
+  text-decoration: none;
 }
 
 .social {
