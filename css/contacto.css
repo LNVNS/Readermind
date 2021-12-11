@@ -1,22 +1,27 @@
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
 html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-  background-color: #F5F5F5;
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #F5F5F5;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -29,27 +34,29 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
+
 
 /*
  * A better looking default horizontal rule
  */
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
+
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -63,34 +70,39 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle;
+    vertical-align: middle;
 }
+
 
 /*
  * Remove default fieldset styles.
  */
 
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
+
 
 /*
  * Allow only vertical resizing of textareas.
  */
 
 textarea {
-  resize: vertical;
+    resize: vertical;
 }
+
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
@@ -98,8 +110,9 @@ textarea {
 
 .hidden,
 [hidden] {
-  display: none !important;
+    display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -111,17 +124,18 @@ textarea {
  */
 
 .sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
 }
+
 
 /*
  * Extends the .sr-only class to allow the element
@@ -131,22 +145,24 @@ textarea {
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
 }
+
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
 
 .invisible {
-  visibility: hidden;
+    visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -162,132 +178,160 @@ textarea {
 
 .clearfix::before,
 .clearfix::after {
-  content: " ";
-  display: table;
+    content: " ";
+    display: table;
 }
 
 .clearfix::after {
-  clear: both;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  background: #184965;
-  padding: 20px 40px 20px 40px;
-}
-
-header .header-container {
-  align-self: center;
-}
-
-header nav {
-  align-self: flex-end;
-}
-
-header ul {
-  margin: 0;
-  padding: 0;
-}
-
-header li {
-  float: left;
-  display: inline;
-  padding: 0 20px 0 20px;
-}
-
-header a {
-  color: #ffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #184965;
-  color: #ffffff;
-  padding: 8px;
-}
-
-.footer-container {
-  display: flex;
-  width: 50%;
-  justify-content: space-around;
-}
-
-.footer-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-copyright p {
-  text-align: center;
+    clear: both;
 }
 
 .contact-info {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .contact-info span {
-  color: #C4C4C4;
-}
-
-.social {
-  display: flex;
-  width: 100%;
-  text-align: center;
-}
-
-.social img {
-  width: 24px;
-  padding: 8px;
+    color: #C4C4C4;
 }
 
 #banner {
-  display: flex;
-  margin: 40px;
-  align-items: center;
-  justify-content: space-around;
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .banner-img {
-  width: 30em;
-  max-width: 100%;
+    width: 30em;
+    max-width: 100%;
 }
 
 .motto-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .motto {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
 }
 
 .motto-cite {
-  font-size: 1.5em;
-  text-align: center;
-  margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0;
 }
 
 .motto-author {
-  font-size: 1em;
-  text-align: center;
+    font-size: 1em;
+    text-align: center;
 }
 
-.motto-button {
+.motto-button {}
 
+.center_contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+  width: 100%;
+  height: 100%;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+.form-horizontal {
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control,
+textarea {
+  max-width: 400px;
+  letter-spacing: 1px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+input {
+  width: 100%;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+}
+
+.alt-send-button:hover {
+  cursor: pointer;
+}
+
+.direct-contact-container {
+  max-width: 400px;
+}
+
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+}
+
+.contact-text {
+  letter-spacing: 1.9px;
+}
+
+.contact-text a {
+  color: black;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  text-decoration: none;
+}
+
+.contact-text a:hover {
+  text-decoration: none;
 }
 
 /* ==========================================================================
@@ -297,49 +341,32 @@ footer {
    ========================================================================== */
 
 @media only screen and (max-width: 35em) {
-
-  header {
-    display: flex;
-    flex-direction: column;
-  }
-
-  nav {
-    width: 100%;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #banner {
-    flex-direction: column;
-  }
-
-  #talleres h2 {
-    text-align: center;
-  }
-
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .social {
-    justify-content: space-around;
-  }
-
-  .footer-copyright p {
-    margin: 16px;
-  }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    nav {
+        width: 100%;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #banner {
+        flex-direction: column;
+    }
+    #talleres h2 {
+        text-align: center;
+    }
 }
 
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
 (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+    /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
@@ -348,71 +375,60 @@ footer {
    ========================================================================== */
 
 @media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-
-  /*
+    *,
+    *::before,
+    *::after {
+        background: #fff !important;
+        color: #000 !important;
+        /* Black prints faster */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]::after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]::after {
+        content: " (" attr(title) ")";
+    }
+    /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  /*
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+        content: "";
+    }
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    /*
    * Printing Tables:
    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-  thead {
-    display: table-header-group;
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
+    thead {
+        display: table-header-group;
+    }
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
 }
-

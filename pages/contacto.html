@@ -2,86 +2,132 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="website, reading, workshops">
+    <meta charset="utf-8">
+    <title>Contacto</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="website, reading, workshops">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="manifest" href="../site.webmanifest">
-  <link rel="apple-touch-icon" href="../icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="apple-touch-icon" href="../icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/talleres.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/api-google.css">
 
-  <meta name="theme-color" content="#fafafa">
+    <script src="https://kit.fontawesome.com/ee72af7c06.js" crossorigin="anonymous"></script>
+    <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-<!-- Header -->
-<header>
-  <div class="header-container">
-    <div id="branding">
-      <a href="../index.html"><img src="../img/logo.svg" alt="ReaderMind"></a>
-    </div>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="../pages/talleres.html">Talleres</a></li>
-      <li><a href="../pages/articulos.html">Articulos</a></li>
-      <li><a href="../pages/libros.html">Libros</a></li>
-      <li><a href="../pages/quienes-somos.html">Quienes Somos</a></li>
-      <li><a href="../pages/contacto.html">Contacto</a></li>
-    </ul>
-  </nav>
-</header>
-
-<!-- Body -->
-<main>
-  Contactanos!
-</main>
-
-<!-- Footer -->
-<footer>
-  <div class="footer-container">
-    <div class="footer-item">
-      <h3>Contacto</h3>
-      <div class="contact-info">
-        <span>+519999XXXXX</span>
-        <span>hi@readermind.com</span>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div id="branding">
+                <a href="../index.html"><img src="../img/logo.svg" alt="ReaderMind"></a>
+            </div>
+        </div>
+      <div class="header-menu">
+        <div id="google_translate_element"></div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/talleres.html">Talleres</a></li>
+            <li><a href="../pages/articulos.html">Articulos</a></li>
+            <li><a href="../pages/libros.html">Libros</a></li>
+            <li><a href="../pages/quienes-somos.html">Quienes Somos</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
-    <div class="footer-item">
-      <h3>Síguenos</h3>
-      <div class="social">
-        <a href="https://facebook.com" target="_blank"><img src="../img/facebook.svg" alt="Facebook"></a>
-        <a href="https://twitter.com" target="_blank"><img src="../img/twitter.svg" alt="Twitter"></a>
-        <a href="https://instagram.com" target="_blank"><img src="../img/instagram.svg" alt="Instagram"></a>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright">
-    <p><b>Copyright &copy; 2021.</b>  Hecho with HTML5 & CSS3 por Reader Mind</p>
-  </div>
-</footer>
+    </header>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <!-- Body -->
 
-<script src="../js/vendor/modernizr-3.11.2.min.js"></script>
-<script src="../js/plugins.js"></script>
-<script src="../js/main.js"></script>
+    <main>
+        <section id="contact">
+          <h1 class="section-header">Contacto</h1>
+          <div class="contact-wrapper">
+            <!-- Left contact page -->
+            <form id="contact-form" class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="text" class="form-control" id="name" placeholder="Nombre" name="name" value="" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="email" class="form-control" id="email" placeholder="Email" name="email" value="" required>
+                </div>
+              </div>
+              <textarea class="form-control" rows="10" placeholder="Mensaje" name="message" required></textarea>
+              <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                <div class="alt-send-button">
+                  <span class="send-text">ENVIAR</span>
+                </div>
+              </button>
+            </form>
+            <!-- Right contact page -->
+            <div class="direct-contact-container">
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Lima, Perú</span></i></li>
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(51) 999-XXX-XXX</a></span></i></li>
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hi@readermind.com</a></span></i></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+    </main>
 
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
+    <!-- Footer -->
+    <footer>
+      <p>
+        Creado con <i class="fa fa-heart"></i> por
+        <a target="_blank" href="https://github.com/lianvn">Lian Nivin</a>,
+        Jose Sanchez, Alberto Medina y Kelly Dionisio
+      </p>
+    </footer>
+
+    <script src="../js/vendor/modernizr-3.11.2.min.js "></script>
+    <script src="../js/plugins.js "></script>
+    <script src="../js/main.js "></script>
+    <!-- Google translate-->
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+
+        document.querySelector('#contact-form').addEventListener('submit', (e) => {
+          e.preventDefault();
+          e.target.elements.name.value = '';
+          e.target.elements.email.value = '';
+          e.target.elements.message.value = '';
+          alert('Mensaje enviado!');
+        });
+    </script>
+
+    <script src="https://www.google-analytics.com/analytics.js " async></script>
 </body>
 
 </html>
